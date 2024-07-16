@@ -1,0 +1,122 @@
+Hello Letter Combinations Solution #1
+
+Here are the keypad map entries
+entry key = 2 value abc
+entry key = 3 value def
+entry key = 4 value ghi
+entry key = 5 value jkl
+entry key = 6 value mno
+entry key = 7 value pqrs
+entry key = 8 value tuv
+entry key = 9 value wxyz
+
+entry key = 2 value abc
+entry key = 3 value def
+entry key = 4 value ghi
+entry key = 5 value jkl
+entry key = 6 value mno
+entry key = 7 value pqrs
+entry key = 8 value tuv
+entry key = 9 value wxyz
+
+the length of digits 23 is 2
+at digit index 0
+the next digit is 2 at digit index 0
+the letters of the digit are abc
+next character of digit 2 is a
+next character of digit 2 is added to recursive solution at position 0
+make recursive call
+at digit index 1
+the next digit is 3 at digit index 1
+the letters of the digit are def
+next character of digit 3 is d
+next character of digit 3 is added to recursive solution at position 1
+make recursive call
+at digit index 2
+When digit index 2 equals n 2, then add next solution to answer
+return from recursive call
+next character of digit 3 is popped from recursive solution at position 1
+next character of digit 3 is e
+next character of digit 3 is added to recursive solution at position 1
+make recursive call
+at digit index 2
+When digit index 2 equals n 2, then add next solution to answer
+return from recursive call
+next character of digit 3 is popped from recursive solution at position 1
+next character of digit 3 is f
+next character of digit 3 is added to recursive solution at position 1
+make recursive call
+at digit index 2
+When digit index 2 equals n 2, then add next solution to answer
+return from recursive call
+next character of digit 3 is popped from recursive solution at position 1
+return from recursive call
+next character of digit 2 is popped from recursive solution at position 0
+next character of digit 2 is b
+next character of digit 2 is added to recursive solution at position 0
+make recursive call
+at digit index 1
+the next digit is 3 at digit index 1
+the letters of the digit are def
+next character of digit 3 is d
+next character of digit 3 is added to recursive solution at position 1
+make recursive call
+at digit index 2
+When digit index 2 equals n 2, then add next solution to answer
+return from recursive call
+next character of digit 3 is popped from recursive solution at position 1
+next character of digit 3 is e
+next character of digit 3 is added to recursive solution at position 1
+make recursive call
+at digit index 2
+When digit index 2 equals n 2, then add next solution to answer
+return from recursive call
+next character of digit 3 is popped from recursive solution at position 1
+next character of digit 3 is f
+next character of digit 3 is added to recursive solution at position 1
+make recursive call
+at digit index 2
+When digit index 2 equals n 2, then add next solution to answer
+return from recursive call
+next character of digit 3 is popped from recursive solution at position 1
+return from recursive call
+next character of digit 2 is popped from recursive solution at position 0
+next character of digit 2 is c
+next character of digit 2 is added to recursive solution at position 0
+make recursive call
+at digit index 1
+the next digit is 3 at digit index 1
+the letters of the digit are def
+next character of digit 3 is d
+next character of digit 3 is added to recursive solution at position 1
+make recursive call
+at digit index 2
+When digit index 2 equals n 2, then add next solution to answer
+return from recursive call
+next character of digit 3 is popped from recursive solution at position 1
+next character of digit 3 is e
+next character of digit 3 is added to recursive solution at position 1
+make recursive call
+at digit index 2
+When digit index 2 equals n 2, then add next solution to answer
+return from recursive call
+next character of digit 3 is popped from recursive solution at position 1
+next character of digit 3 is f
+next character of digit 3 is added to recursive solution at position 1
+make recursive call
+at digit index 2
+When digit index 2 equals n 2, then add next solution to answer
+return from recursive call
+next character of digit 3 is popped from recursive solution at position 1
+return from recursive call
+next character of digit 2 is popped from recursive solution at position 0
+the letter combinations are
+Combination: ad
+Combination: ae
+Combination: af
+Combination: bd
+Combination: be
+Combination: bf
+Combination: cd
+Combination: ce
+Combination: cf
