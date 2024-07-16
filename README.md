@@ -38,6 +38,6 @@ The overall answers are added to an answer list or array.
 
 ## Background Information
 
-This (recursive backtracking)[https://brilliant.org/wiki/recursive-backtracking/] article
-and (depth first search)[https://en.wikipedia.org/wiki/Depth-first_search] wiki post
+This [recursive backtracking](https://brilliant.org/wiki/recursive-backtracking/) article
+and [depth first search](https://en.wikipedia.org/wiki/Depth-first_search) wiki post
 can help in understanding the concepts used.
